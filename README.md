@@ -1,4 +1,4 @@
-# 🚖 Uber Ride Analytics - SQL Project
+# 🚖 Uber Ride Analysis - SQL Project
 
 ![SQL](https://img.shields.io/badge/Language-SQL-orange) ![ETL](https://img.shields.io/badge/Process-ETL-blue) ![Data Cleaning](https://img.shields.io/badge/Focus-Data%20Cleaning-green)
 
@@ -70,7 +70,7 @@ Dataset Pattern: The analysis revealed near-identical Average Fare and Price per
 ## 📂 Repository Structure
 
 ```text
-├── ride_bookings_raw.csv       -- The original dataset (dirty data with c1, c2 headers)
+├── raw_data_uber.csv       -- The original dataset (dirty data with c1, c2 headers)
 ├── 1_schema_setup.sql          -- Database creation & table definition
 ├── 2_etl_data_cleaning.sql     -- ETL process: Cleaning raw data & Feature Engineering
 └── 3_business_analysis.sql     -- SQL queries for KPIs and Business Insights
